@@ -1,0 +1,204 @@
+using System.ComponentModel.Design;
+
+namespace calculatriceWinFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDiv_CheckedChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void textrep_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void textnber1_TextChanged(object sender, EventArgs e)
+        {
+            double nombre1 = Convert.ToDouble(textnber1.Text);
+
+        }
+
+        private void textnber2_TextChanged(object sender, EventArgs e)
+        {
+            double nombre2 = Convert.ToDouble(textnber2.Text);
+        }
+
+        private void buttonPlus_CheckedChanged(object sender, EventArgs e)
+        {
+            
+            double nombre1, nombre2;
+            double resultat = 0;
+
+            if (!double.TryParse(textnber1.Text, 
+                out nombre1) || 
+                !double.TryParse(textnber2.Text, out 
+                nombre2))
+            {
+
+                textrep.Text = "erreur: veuillez entrer les nombres valables";
+
+                return;
+            }
+
+
+            //resultat = nombre1 + nombre2;
+            textrep.Text = $"resultat: {resultat}";
+
+
+
+        }
+
+        private void ButtonMult_CheckedChanged(object sender, EventArgs e)
+        {
+
+            double nombre1, nombre2;
+            double resultat = 0;
+
+            if (!double.TryParse(textnber1.Text,
+                out nombre1) ||
+                !double.TryParse(textnber2.Text, out
+                nombre2))
+            {
+
+                textrep.Text = "erreur: veuillez entrer les nombres valables";
+
+                return;
+            }
+
+
+            //resultat = nombre1 * nombre2;
+            textrep.Text = $"resultat: {resultat}";
+
+
+
+
+        }
+
+        private void buttonSous_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void buttonCalcul_Click(object sender, EventArgs e)
+        {
+
+            double nombre1, nombre2;
+            if (!double.TryParse(textnber1.Text, out nombre1) ||
+               !double.TryParse(textnber2.Text, out nombre2))
+            {
+
+
+                return;
+            }
+
+            double resultat = 0;
+
+            if (buttonPlus.Checked)
+            {
+
+                resultat = nombre1 + nombre2;
+               
+            }
+
+            else if (buttonSoust.Checked)
+            {
+
+                resultat = nombre1 - nombre2;
+              
+            }
+
+            else if (buttonDiv.Checked)
+            {
+                if (nombre2 == 0)
+                {
+
+                    textrep.Text = "erreur division par 0";
+                    return;
+
+                }
+                resultat = nombre1 / nombre2;
+            }
+            else if (buttonMult.Checked)
+            {
+
+                resultat = nombre1 * nombre2;
+                
+
+
+            }
+
+            textrep.Text = "le resultat est:" + resultat.ToString();
+           
+
+        }
+
+        private void buttonSoust_CheckedChanged(object sender, EventArgs e)
+        {
+            double nombre1, nombre2;
+            double resultat = 0;
+
+            if (!double.TryParse(textnber1.Text, 
+                out nombre1) || 
+                !double.TryParse(textnber2.Text, out 
+                nombre2))
+            {
+
+                textrep.Text = "erreur: veuillez entrer les nombres valables";
+
+                return;
+            }
+
+
+            //resultat = nombre1 - nombre2;
+            textrep.Text = $"resultat: {resultat}";
+
+
+        }
+
+        private void buttonDiv_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+            double nombre1, nombre2;
+            double resultat = 0;
+
+            if (!double.TryParse(textnber1.Text,
+                out nombre1) ||
+                !double.TryParse(textnber2.Text, out
+                nombre2))
+            {
+
+                textrep.Text = "erreur: veuillez entrer les nombres valables";
+
+                return;
+            }
+
+
+            //resultat = nombre1 / nombre2;
+            textrep.Text = $"resultat: {resultat}";
+
+             
+
+        }
+    }
+}
+
