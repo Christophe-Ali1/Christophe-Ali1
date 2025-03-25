@@ -1,0 +1,110 @@
+
+/*using Word = 
+    Microsoft.Office.Interop.Word; */
+namespace Cotation
+
+
+{
+    public partial class Form1 : Form
+
+    {
+       
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void prenom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCotation_Click(object sender, EventArgs e)
+        {
+            int math = int.Parse(textMath.Text);
+            int francais = int.Parse(textFranc.Text);
+            int programmation = int.Parse(textProg.Text);
+            int algo = int.Parse(textAlgo.Text);
+            int burautique = int.Parse(textBur.Text);
+
+
+            int totalPossible = 50 + 40 + 60 + 50 + 100;
+
+            int totalObtenu = math + francais + programmation + algo + burautique;
+            double moyenne = ((double)totalObtenu / (double)totalPossible) * 100;
+
+            string appreciation;
+            if (moyenne < 50)
+                appreciation = "ajourné";
+
+            else if (moyenne >= 50 && moyenne < 70)
+                appreciation = "satisfaction";
+
+
+            else if (moyenne >= 70 && moyenne < 80)
+                appreciation = "distinction ";
+
+            else if (moyenne >= 80 && moyenne < 90)
+                appreciation = "excellent ";
+
+            else
+                appreciation = "très excellent ";
+
+            textResultat.Text = "Total:" + totalObtenu + "/" + totalPossible +
+                "\r\nMoyenne: " + moyenne.ToString("0.00") + "%" +
+                "\r\nAppreciation: " + appreciation;
+
+        }
+
+        private void textResultat_TextChanged(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               /* Word.Application WordApp = new Word.Application();
+                Word.Document doc = WordApp.Document.Add();
+
+                doc.Content.Text =
+                   textResultat.Text;
+
+               WordApp.Visible = true;*/
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur: " + ex.Message);
+            }
+        }
+        
+       
+    }
+    
+}
+
+
+
+
+
+
+

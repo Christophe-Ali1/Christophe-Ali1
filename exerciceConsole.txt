@@ -1,0 +1,1620 @@
+/*Console.WriteLine("Entrez le premier nombre : ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième nombre : ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+int somme = a + b;
+Console.WriteLine($"La somme de {a} et {b} est : {somme}");
+
+Console.ReadKey(); */
+
+
+
+
+
+
+/*Console.WriteLine("Entrez le premier nombre : ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième nombre : ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Le carré de {a} est : {a * a}");
+Console.WriteLine($"Le carré de {b} est : {b * b}");*/
+
+
+
+
+
+/*string nom = "VotreNom"; // Remplacez par votre nom
+char[] lettres = nom.ToCharArray();
+
+Console.WriteLine("Les lettres de votre nom sont : ");
+foreach (char lettre in lettres)
+{
+    Console.WriteLine(lettre);
+}
+*/
+
+
+/*
+
+
+Console.WriteLine("Entrez la largeur du rectangle : ");
+double largeur = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez la longueur du rectangle : ");
+double longueur = Convert.ToDouble(Console.ReadLine());
+
+double surface = largeur * longueur;
+Console.WriteLine($"La surface du rectangle est : {surface}");*/
+
+
+
+
+
+/*
+Console.WriteLine("Entrez la largeur du champ : ");
+double largeur = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez la longueur du champ : ");
+double longueur = Convert.ToDouble(Console.ReadLine());
+
+double perimetre = 2 * (largeur + longueur);
+double surface = largeur * longueur;
+
+Console.WriteLine($"Le périmètre du champ est : {perimetre}");
+Console.WriteLine($"La surface du champ est : {surface}");*/
+
+
+
+
+
+
+
+/*Console.WriteLine("Entrez le premier entier A : ");
+int A = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième entier B : ");
+int B = Convert.ToInt32(Console.ReadLine());
+
+// Échange
+int temp = A;
+A = B;
+B = temp;
+
+Console.WriteLine($"Après échange : A = {A}, B = {B}");
+*/
+
+
+
+
+/*const double pi = 3.14159;
+
+Console.WriteLine("Entrez le rayon du cylindre : ");
+double rayon = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez la hauteur du cylindre : ");
+double hauteur = Convert.ToDouble(Console.ReadLine());
+
+double volume = pi * rayon * rayon * hauteur;
+Console.WriteLine($"Le volume du cylindre est : {volume}");
+*/
+
+
+
+
+
+/*Console.WriteLine("Entrez la température en degrés Celsius : ");
+double celsius = Convert.ToDouble(Console.ReadLine());
+
+double fahrenheit = (celsius * 1.8) + 32;
+Console.WriteLine($"La température en degrés Fahrenheit est : {fahrenheit}");*/
+
+
+
+
+
+/*Console.WriteLine("Entrez la longueur du premier côté : ");
+double a = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez la longueur du deuxième côté : ");
+double b = Convert.ToDouble(Console.ReadLine());
+
+double hypoténuse = Math.Sqrt(a * a + b * b);
+Console.WriteLine($"L'hypoténuse est : {hypoténuse}");*/
+
+
+
+
+
+
+
+Console.WriteLine("Entrez la longueur du côté du carré : ");
+double cote = Convert.ToDouble(Console.ReadLine());
+
+double cube = cote * cote * cote;
+Console.WriteLine($"Le cube du carré est : {cube}");
+
+
+
+
+
+Console.WriteLine("Entrez le premier nombre : ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième nombre : ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Le carré de {a} est : {a * a}");
+Console.WriteLine($"Le carré de {b} est : {b * b}");
+
+
+
+
+
+
+
+/*Console.WriteLine("Entrez le premier nombre : ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième nombre : ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+int somme = a + b;
+Console.WriteLine($"La somme de {a} et {b} est : {somme}");*/
+
+
+
+
+
+
+/*Console.WriteLine("Entrez la valeur de A : ");
+int A = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez la valeur de B : ");
+int B = Convert.ToInt32(Console.ReadLine());
+
+// Échange
+(A, B) = (B, A);
+
+Console.WriteLine($"Après échange : A = {A}, B = {B}");*/
+
+
+
+
+
+
+
+/*Console.WriteLine("Entrez un nombre : ");
+int nombre = Convert.ToInt32(Console.ReadLine());
+
+if (nombre > 0)
+{
+    Console.WriteLine("Le nombre est positif.");
+}
+else if (nombre < 0)
+{
+    Console.WriteLine("Le nombre est négatif.");
+}
+else
+{
+    Console.WriteLine("Le nombre est zéro.");
+}
+*/
+
+
+
+
+
+/*Console.WriteLine("Entrez un nombre : ");
+int nombre = Convert.ToInt32(Console.ReadLine());
+
+if (nombre % 2 == 0)
+{
+    Console.WriteLine("Le nombre est pair.");
+}
+else
+{
+    Console.WriteLine("Le nombre est impair.");
+}
+
+*/
+
+
+
+
+
+/*Console.WriteLine("Entrez le premier entier : ");
+int A = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième entier : ");
+int B = Convert.ToInt32(Console.ReadLine());
+
+int plusGrand = (A > B) ? A : B;
+Console.WriteLine($"Le plus grand nombre est : {plusGrand}");*/
+
+
+
+
+
+
+
+/*Console.WriteLine("Entrez le premier entier : ");
+int A = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième entier : ");
+int B = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Entrez le troisième entier : ");
+int C = Convert.ToInt32(Console.ReadLine());
+
+int plusGrand = Math.Max(A, Math.Max(B, C));
+Console.WriteLine($"Le plus grand nombre est : {plusGrand}");*/
+
+
+
+
+
+
+/*
+|
+Console.WriteLine("Entrez votre nom : ");
+string nom = Console.ReadLine();
+
+Console.WriteLine("Entrez votre état civil (M/Mme) : ");
+string etatCivil = Console.ReadLine();
+
+Console.WriteLine($"Nom : {nom}, État civil : {etatCivil}");
+
+
+
+
+
+/*
+Console.WriteLine("Entrez votre âge : ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+if (age >= 18)
+{
+    Console.WriteLine("Vous êtes majeur.");
+}
+else
+{
+    Console.WriteLine("Vous êtes mineur.");
+}
+
+
+
+
+
+
+Console.WriteLine("Entrez un nombre (1-4) : ");
+int nombre = Convert.ToInt32(Console.ReadLine());
+
+switch (nombre)
+{
+    case 1:
+        Console.WriteLine("GONGO");
+        break;
+    case 2:
+        Console.WriteLine("FRANCE");
+        break;
+    case 3:
+        Console.WriteLine("BELGIQUE");
+        break;
+    case 4:
+        Console.WriteLine("CANADA");
+        break;
+    default:
+        Console.WriteLine("Nombre non valide.");
+        break;
+}
+
+
+
+
+
+
+
+Console.WriteLine("Entrez votre âge : ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+if (age < 5)
+{
+    Console.WriteLine("Vous êtes un bébé.");
+}
+else if (age >= 5 && age <= 11)
+{
+    Console.WriteLine("Vous êtes un enfant.");
+}
+else if (age >= 12 && age <= 18)
+{
+    Console.WriteLine("Vous êtes un adolescent.");
+}
+else
+{
+    Console.WriteLine("Vous êtes adulte.");
+}
+
+
+
+
+
+
+
+Console.WriteLine("Entrez la note du premier étudiant : ");
+double note1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez la note du deuxième étudiant : ");
+double note2 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez la note du troisième étudiant : ");
+double note3 = Convert.ToDouble(Console.ReadLine());
+
+double plusGrandeNote = Math.Max(note1, Math.Max(note2, note3));
+Console.WriteLine($"La plus grande note est : {plusGrandeNote}");
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le premier nombre : ");
+double premierNombre = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez le deuxième nombre : ");
+double deuxiemeNombre = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez l'opération (+, -, *, /) : ");
+char operation = Console.ReadKey().KeyChar;
+Console.WriteLine();
+
+double resultat = 0;
+
+switch (operation)
+{
+    case '+':
+        resultat = premierNombre + deuxiemeNombre;
+        break;
+    case '-':
+        resultat = premierNombre - deuxiemeNombre;
+        break;
+    case '*':
+        resultat = premierNombre * deuxiemeNombre;
+        break;
+    case '/':
+        if (deuxiemeNombre != 0)
+        {
+            resultat = premierNombre / deuxiemeNombre;
+        }
+        else
+        {
+            Console.WriteLine("La division par zéro est impossible.");
+            return;
+        }
+        break;
+    default:
+        Console.WriteLine("Opération non valide.");
+        return;
+}
+
+Console.WriteLine($"Le résultat est : {resultat}");
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez un nombre entier : ");
+int nombre = Convert.ToInt32(Console.ReadLine());
+
+if (nombre > 0)
+{
+    Console.WriteLine("Le nombre est positif.");
+}
+else if (nombre < 0)
+{
+    Console.WriteLine("Le nombre est négatif.");
+}
+else
+{
+    Console.WriteLine("Le nombre est zéro.");
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int somme = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        somme += i;
+    }
+
+    Console.WriteLine($"La somme des entiers de 1 à {n} est : {somme}");
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    long factorielle = 1;
+
+    for (int i = 1; i <= n; i++)
+    {
+        factorielle *= i;
+    }
+
+    Console.WriteLine($"La factorielle de {n} est : {factorielle}");
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    bool estPremier = true;
+
+    if (n < 2)
+    {
+        estPremier = false;
+    }
+    else
+    {
+        for (int i = 2; i <= Math.Sqrt(n); i++)
+        {
+            if (n % i == 0)
+            {
+                estPremier = false;
+                break;
+            }
+        }
+    }
+
+    Console.WriteLine(estPremier ? $"{n} est un nombre premier." : $"{n} n'est pas un nombre premier.");
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Les nombres pairs jusqu'à n sont :");
+    for (int i = 0; i <= n; i += 2)
+    {
+        Console.WriteLine(i);
+    }
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Les nombres impairs jusqu'à n sont :");
+    for (int i = 1; i <= n; i += 2)
+    {
+        Console.WriteLine(i);
+    }
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int inverse = 0;
+
+    while (n != 0)
+    {
+        int chiffre = n % 10;
+        inverse = inverse * 10 + chiffre;
+        n /= 10;
+    }
+
+    Console.WriteLine($"Le nombre inversé est : {inverse}");
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int somme = 0;
+
+    while (n != 0)
+    {
+        somme += n % 10;
+        n /= 10;
+    }
+
+    Console.WriteLine($"La somme des chiffres est : {somme}");
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez une chaîne de caractères : ");
+    string input = Console.ReadLine();
+    int compteurVoyelles = 0;
+
+    foreach (char c in input.ToLower())
+    {
+        if ("aeiouy".Contains(c))
+        {
+            compteurVoyelles++;
+        }
+    }
+
+    Console.WriteLine($"Le nombre de voyelles est : {compteurVoyelles}");
+
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez une chaîne de caractères : ");
+    string input = Console.ReadLine();
+    int compteurConsonnes = 0;
+
+    foreach (char c in input.ToLower())
+    {
+        if (char.IsLetter(c) && !"aeiouy".Contains(c))
+        {
+            compteurConsonnes++;
+        }
+    }
+
+    Console.WriteLine($"Le nombre de consonnes est : {compteurConsonnes}");
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez une chaîne de caractères : ");
+    string input = Console.ReadLine();
+    string reversed = new string(input.Reverse().ToArray());
+
+    if (input.Equals(reversed, StringComparison.OrdinalIgnoreCase))
+    {
+        Console.WriteLine($"{input} est un palindrome.");
+    }
+    else
+    {
+        Console.WriteLine($"{input} n'est pas un palindrome.");
+    }
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez le nombre d'éléments : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int[] tableau = new int[n];
+
+    Console.WriteLine("Entrez les éléments : ");
+    for (int i = 0; i < n; i++)
+    {
+        tableau[i] = Convert.ToInt32(Console.ReadLine());
+    }
+
+    Array.Sort(tableau);
+    Console.WriteLine("Tableau trié : " + string.Join(", ", tableau));
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez le nombre d'éléments : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int[] tableau = new int[n];
+
+    Console.WriteLine("Entrez les éléments : ");
+    for (int i = 0; i < n; i++)
+    {
+        tableau[i] = Convert.ToInt32(Console.ReadLine());
+    }
+
+    Console.WriteLine("Entrez l'élément à rechercher : ");
+    int element = Convert.ToInt32(Console.ReadLine());
+    bool trouve = false;
+
+    foreach (int item in tableau)
+    {
+        if (item == element)
+        {
+            trouve = true;
+            break;
+        }
+    }
+
+    Console.WriteLine(trouve ? "Élément trouvé." : "Élément non trouvé.");
+
+
+
+
+
+
+    Console.WriteLine("Entrez le nombre de notes : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    double somme = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        Console.WriteLine($"Entrez la note {i} : ");
+        somme += Convert.ToDouble(Console.ReadLine());
+    }
+
+    double moyenne = somme / n;
+    Console.WriteLine($"La moyenne des notes est : {moyenne}");
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Les multiples de 3 jusqu'à n sont :");
+    for (int i = 3; i <= n; i += 3)
+    {
+        Console.WriteLine(i);
+    }
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Les carrés des nombres jusqu'à n sont :");
+    for (int i = 1; i <= n; i++)
+    {
+        Console.WriteLine($"{i}^2 = {i * i}");
+    }
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre pour afficher sa table de multiplication : ");
+    int nombre = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine($"Table de multiplication de {nombre} :");
+    for (int i = 1; i <= 10; i++)
+    {
+        Console.WriteLine($"{nombre} x {i} = {nombre * i}");
+    }
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez la température en Celsius : ");
+    double celsius = Convert.ToDouble(Console.ReadLine());
+    double fahrenheit = (celsius * 9 / 5) + 32;
+
+    Console.WriteLine($"La température en Fahrenheit est : {fahrenheit}");
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez la température en Fahrenheit : ");
+    double fahrenheit = Convert.ToDouble(Console.ReadLine());
+    double celsius = (fahrenheit - 32) * 5 / 9;
+
+    Console.WriteLine($"La température en Celsius est : {celsius}");
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez une année : ");
+    int annee = Convert.ToInt32(Console.ReadLine());
+
+    bool estBissextile = (annee % 4 == 0 && annee % 100 != 0) || (annee % 400 == 0);
+
+    Console.WriteLine(estBissextile ? $"{annee} est une année bissextile." : $"{annee} n'est pas une année bissextile.");
+
+
+
+
+
+
+
+
+
+    string[] jours = { "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
+
+    Console.WriteLine("Les jours de la semaine sont :");
+    foreach (string jour in jours)
+    {
+        Console.WriteLine(jour);
+    }
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez le rayon du cercle : ");
+    double rayon = Convert.ToDouble(Console.ReadLine());
+    double aire = Math.PI * rayon * rayon;
+
+    Console.WriteLine($"L'aire du cercle est : {aire}");
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez la longueur du rectangle : ");
+    double longueur = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Entrez la largeur du rectangle : ");
+    double largeur = Convert.ToDouble(Console.ReadLine());
+
+    double aire = longueur * largeur;
+    Console.WriteLine($"L'aire du rectangle est : {aire}");
+
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez la base du triangle : ");
+    double baseTriangle = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Entrez la hauteur du triangle : ");
+    double hauteur = Convert.ToDouble(Console.ReadLine());
+
+    double aire = (baseTriangle * hauteur) / 2;
+    Console.WriteLine($"L'aire du triangle est : {aire}");
+
+
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez le nombre d'éléments : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int[] tableau = new int[n];
+    int somme = 0;
+
+    Console.WriteLine("Entrez les éléments : ");
+    for (int i = 0; i < n; i++)
+    {
+        tableau[i] = Convert.ToInt32(Console.ReadLine());
+        somme += tableau[i];
+    }
+
+    Console.WriteLine($"La somme des éléments du tableau est : {somme}");
+
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int a = 0, b = 1;
+
+    Console.WriteLine("Les nombres de Fibonacci jusqu'à n sont :");
+    while (a <= n)
+    {
+        Console.WriteLine(a);
+        int temp = a;
+        a = b;
+        b = temp + b;
+    }
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez une année : ");
+    int annee = Convert.ToInt32(Console.ReadLine());
+
+    if (annee > 0)
+    {
+        Console.WriteLine($"{annee} est une année valide.");
+    }
+    else
+    {
+        Console.WriteLine($"{annee} n'est pas une année valide.");
+    }
+
+
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Les chiffres du nombre sont :");
+    while (n != 0)
+    {
+        Console.WriteLine(n % 10);
+        n /= 10;
+    }
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez un nombre entier n : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("Les nombres premiers jusqu'à n sont :");
+    for (int i = 2; i <= n; i++)
+    {
+        bool estPremier = true;
+        for (int j = 2; j <= Math.Sqrt(i); j++)
+        {
+            if (i % j == 0)
+            {
+                estPremier = false;
+                break;
+            }
+        }
+        if (estPremier)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez la base : ");
+double baseNombre = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Entrez l'exposant : ");
+int exposant = Convert.ToInt32(Console.ReadLine());
+
+double resultat = Math.Pow(baseNombre, exposant);
+Console.WriteLine($"{baseNombre} à la puissance {exposant} est : {resultat}");
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez un nombre entier : ");
+int n = Convert.ToInt32(Console.ReadLine());
+string inverse = "";
+
+while (n != 0)
+{
+    inverse += (n % 10).ToString();
+    n /= 10;
+}
+
+Console.WriteLine($"Les chiffres en ordre inverse sont : {inverse}");
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez une chaîne de caractères : ");
+string input = Console.ReadLine();
+
+if (string.IsNullOrWhiteSpace(input))
+{
+    Console.WriteLine("La chaîne est vide.");
+}
+else
+{
+    Console.WriteLine("La chaîne n'est pas vide.");
+}
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments en ordre inverse sont :");
+for (int i = n - 1; i >= 0; i--)
+{
+    Console.WriteLine(tableau[i]);
+}
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Array.Sort(tableau);
+Console.WriteLine("Les éléments triés sont : " + string.Join(", ", tableau));
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments avec leurs indices sont :");
+for (int i = 0; i < n; i++)
+{
+    Console.WriteLine($"Index {i} : {tableau[i]}");
+}
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments qui sont des multiples de 5 sont :");
+foreach (int item in tableau)
+{
+    if (item % 5 == 0)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Entrez une valeur : ");
+int valeur = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Les éléments supérieurs à {valeur} sont :");
+foreach (int item in tableau)
+{
+    if (item > valeur)
+    {
+        Console.WriteLine(item);
+    }
+
+
+
+
+
+
+    Console.WriteLine("Entrez le nombre d'éléments : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int[] tableau = new int[n];
+    int sommePairs = 0;
+
+    Console.WriteLine("Entrez les éléments : ");
+    for (int i = 0; i < n; i++)
+    {
+        tableau[i] = Convert.ToInt32(Console.ReadLine());
+        if (tableau[i] % 2 == 0)
+        {
+            sommePairs += tableau[i];
+        }
+    }
+
+    Console.WriteLine($"La somme des nombres pairs est : {sommePairs}");*/
+
+
+
+
+
+
+
+
+
+    Console.WriteLine("Entrez le nombre d'éléments : ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int[] tableau = new int[n];
+    int sommeImpair = 0;
+
+    Console.WriteLine("Entrez les éléments : ");
+    for (int i = 0; i < n; i++)
+    {
+        tableau[i] = Convert.ToInt32(Console.ReadLine());
+        if (tableau[i] % 2 != 0)
+        {
+            sommeImpair += tableau[i];
+        }
+    }
+
+    Console.WriteLine($"La somme des nombres impairs est : {sommeImpair}");
+
+
+
+
+
+
+
+
+
+/*
+
+
+        Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+int max = tableau[0];
+for (int i = 1; i < n; i++)
+{
+    if (tableau[i] > max)
+    {
+        max = tableau[i];
+    }
+}
+
+Console.WriteLine($"Le maximum est : {max}");
+    }
+}
+
+
+
+
+
+
+
+
+        Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+int min = tableau[0];
+for (int i = 1; i < n; i++)
+{
+    if (tableau[i] < min)
+    {
+        min = tableau[i];
+    }
+}
+
+Console.WriteLine($"Le minimum est : {min}");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+        Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Entrez l'élément à rechercher : ");
+int element = Convert.ToInt32(Console.ReadLine());
+int compteur = 0;
+
+foreach (int item in tableau)
+{
+    if (item == element)
+    {
+        compteur++;
+    }
+}
+
+Console.WriteLine($"L'élément {element} apparaît {compteur} fois.");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+        Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments négatifs sont :");
+foreach (int item in tableau)
+{
+    if (item < 0)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments positifs sont :");
+foreach (int item in tableau)
+{
+    if (item > 0)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments qui sont des zéros sont :");
+foreach (int item in tableau)
+{
+    if (item == 0)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Entrez un nombre pour vérifier les multiples : ");
+int multiple = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Les éléments qui sont des multiples de {multiple} sont :");
+foreach (int item in tableau)
+{
+    if (item % multiple == 0)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments qui sont des carrés parfaits sont :");
+foreach (int item in tableau)
+{
+    int racine = (int)Math.Sqrt(item);
+    if (racine * racine == item)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+Console.WriteLine("Les éléments qui sont des puissances de deux sont :");
+foreach (int item in tableau)
+{
+    if (item > 0 && (item & (item - 1)) == 0)
+    {
+        Console.WriteLine(item);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Entrez le nombre d'éléments : ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] tableau = new int[n];
+
+Console.WriteLine("Entrez les éléments : ");
+for (int i = 0; i < n; i++)
+{
+    tableau[i] = Convert.ToInt32(Console.ReadLine());
+}
+
+// Générer les nombres de Fibonacci jusqu'à un certain nombre
+HashSet<int> fibonacciSet = new HashSet<int>();
+int a = 0, b = 1;
+fibonacciSet.Add(a);
+fibonacciSet.Add(b);
+while (b <= 10000) // Limite arbitraire pour la suite de Fibonacci
+{
+    int temp = a + b;
+    a = b;
+    b = temp;
+    fibonacciSet.Add(b);
+}
+
+Console.WriteLine("Les éléments qui sont des nombres de la suite de Fibonacci sont :");
+foreach (int item in tableau)
+{
+    if (fibonacciSet.Contains(item))
+    {
+        Console.WriteLine(item);
+    }
+*/
+   /*
+    static void f1()
+    {
+        Console.WriteLine("bonjour");
+    }
+
+    static void f2(int n)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine("bonjour");
+        }
+    }
+
+    static int f3(int n)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine("bonjour");
+        }
+        return 0;
+    }
+
+    static void Main(string[] args)
+    {
+        f1();
+        f2(3);
+        f3(2);
+    }
+   */
+
+
+    
+   /*static int Somme(int a, int b)
+    {
+        return a + b;
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine(Somme(5, 7)); // Exemple de test
+    }
+
+
+*/
+   /* static double Operation(double a, double b, char op)
+    {
+        switch (op)
+        {
+            case '+': return a + b;
+            case '-': return a - b;
+            case '*': return a * b;
+            case '/': return b != 0 ? a / b : double.NaN;
+            default: return a + b; // Cas par défaut
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine(Operation(5.5, 2.5, '+')); // Test d'addition
+        Console.WriteLine(Operation(5.5, 2.5, '/')); // Test de division
+    }
+   */
+
+
+
+
+/*
+    static bool EstMultipleDe2(int n)
+    {
+        return n % 2 == 0;
+    }
+
+    static bool EstMultipleDe3(int n)
+    {
+        return n % 3 == 0;
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine(EstMultipleDe2(4)); // true
+        Console.WriteLine(EstMultipleDe3(9)); // true
+    }
+*/
+
+
+
+
+/*
+    static void AdditionnerEtAfficher(int a, int b)
+    {
+        Console.WriteLine($"La somme est : {a + b}");
+    }
+
+    static void Main(string[] args)
+    {
+        AdditionnerEtAfficher(5, 7);
+    }
+
+
+
+
+
+  */ 
+    /*static int PlusGrand(int a, int b)
+    {
+        return a > b ? a : b;
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine(PlusGrand(5, 7)); // 7
+    }
+
+
+
+*/
+
+    static int PlusGrand(int a, int b, int c)
+    {
+        return Math.Max(a, Math.Max(b, c));
+    }
+
+    static void Main(string[] args)
+    {
+        Console.WriteLine(PlusGrand(5, 7, 2)); // 7
+    }
+
+
+
+
+
+
+
+
+
+
+
+
